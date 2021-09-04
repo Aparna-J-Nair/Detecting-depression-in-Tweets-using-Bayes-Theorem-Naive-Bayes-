@@ -4,12 +4,16 @@ Nowadays risk of early death is increasing due to mental illness which is mostly
 The project comprises of the features extracted from combined effect of the all the processes like emotional, momentarily, grammatical for detecting and processing the depressive data which is retrieved from social media. Then pre-processing of the derived data is carried out. Pre-processing involves removing unnecessary words such as Removal of Stop words, Stemmization and Tokenization that are necessary for analysis. We may label the tweets with the scraped tweets whether it's positive or negative using naïve bayes classifier. The algorithm describes the flow of the work.
 
 • Retrieve the data sets (Twitter / Twitter API / Facebook / Facebook API)
+
 • Pre-processing to train the Naïve Bayesian Classifier. 
+
 • Convert the data set in frequency table using TF-IDF (term frequency–inverse 
 document frequency- it will reflect how important a word is to a document in a 
 collection.) 
+
 • Use the Naïve Bayesian rule for calculating depressed and non-depress words per 
 comment / post.
+
 • Classification into depress comments and non-depressed comments from total 
 comments / POSTS.
 
